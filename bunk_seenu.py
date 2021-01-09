@@ -2,8 +2,8 @@ import requests
 from datetime import date
 import os
 
-key = os.environ(RAPID_API_KEY)
-discord_webhook_url = os.environ(DISCORD_WEBHOOK_URL)
+key = os.getenv("RAPID_API_KEY")
+discord_webhook_url = os.getenv("DISCORD_WEBHOOK_URL")
 rapid_api_url = "https://daily-fuel-prices-update-india.p.rapidapi.com/car/v2/fuel/prices"
 
 
