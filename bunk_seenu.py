@@ -14,7 +14,7 @@ def daily_fuel_prices():
         'src': "android-app",
         'appversion': "1.0",
         'deviceid': "abcd",
-        'x-rapidapi-key': os.getenv(RAPID_API_KEY),
+        'x-rapidapi-key': key,
         'x-rapidapi-host': "daily-fuel-prices-update-india.p.rapidapi.com"
     }
 
