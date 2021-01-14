@@ -6,7 +6,7 @@ from datetime import datetime
 import tweepy
 
 consumerKey = os.getenv("TWITTER_CONSUMER_KEY")
-consumerSecret = os.getenv("TWITTER+CONSUMER_SECRET")
+consumerSecret = os.getenv("TWITTER_CONSUMER_SECRET")
 accessToken = os.getenv("TWITTER_ACCESS_TOKEN")
 accessTokenSecret = os.getenv("TWITTER_ACCESS_TOKEN_SECRET")
 
